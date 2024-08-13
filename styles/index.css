@@ -1,1 +1,91 @@
 @import url(global.css);
+
+header {
+  width: 1280px;
+  margin: auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 32px;
+}
+
+.navigationIcons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.userIcon {
+  width: 40px;
+  height: 40px;
+}
+.userIcon img {
+  width: 100%;
+}
+
+.containerInfo {
+  display: flex;
+  align-items: center;
+  padding: 32px;
+  justify-content: space-between;
+  font: var(--text-md);
+}
+
+.infoUser {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.infoUser p {
+  width: 380px;
+}
+
+h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+.infoIcons {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.infoIcons li {
+  gap: 8px;
+  align-items: center;
+}
+
+main {
+  padding: 24px 32px;
+  width: 1280px;
+  margin: auto;
+}
+.containerMain {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.containerMain img {
+  width: 286px;
+  height: 286px;
+}
+
+footer {
+  padding: 24px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  margin: auto;
+}
+
+footer div + div {
+  display: flex;
+  gap: 16px;
+}
